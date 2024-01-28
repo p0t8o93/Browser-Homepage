@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "DaddyTimeMono Nerd Font";
+    src: url("DaddyTimeMono/DaddyTimeMonoNerdFont-Regular.ttf") format("truetype");
+  }
+
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+  margin: 0;
+}
+
+.dim {
+    background-color: rgba(0, 0, 0, 0.501);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+.time {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 2.5em;
+
+}
+
+.time p{
+    margin-bottom: 1px;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+.terminal {
+    background-color: rgb(39, 39, 39);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    height: 500px;
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-family: 'DaddyTimeMono Nerd Font', Arial, sans-serif;  
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.category {
+    color: rgb(171, 107, 255);
+}
